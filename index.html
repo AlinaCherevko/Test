@@ -2,124 +2,1003 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Test/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/leaf.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Test task</title>
+
     <script type="module" crossorigin src="/Test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Test/assets/styles-DvPDDfy5.css">
+    <link rel="stylesheet" crossorigin href="/Test/assets/index-Bir_msyd.css">
   </head>
   <body>
     <header class="header">
+  <div class="highList">
+    <div class="container">
+      <div class="highList__wrapper">
+        <ul class="highList__list">
+          <li>
+            <a class="highList__link" href="./page-2.html"
+              >Доставка та оплата</a
+            >
+          </li>
+          <li>
+            <a class="highList__link" href="./page-3.html"
+              >Програма лояльності</a
+            >
+          </li>
+          <li>
+            <a class="highList__link" href="./page-3.html">Про нас</a>
+          </li>
+          <li>
+            <a class="highList__link" href="./page-3.html">Контакти</a>
+          </li>
+          <li>
+            <a class="highList__link" href="./page-3.html">Магазини</a>
+          </li>
+        </ul>
+        <ul class="highList__favoriteList">
+          <li class="highList__favoriteItem">
+            <a class="highList__favoriteLink" href="#">
+              <svg class="highList__icon" width="20px" height="20px">
+                <use href="../img/symbol-defs.svg#icon-heart"></use></svg
+              >Улюблені товари</a
+            >
+          </li>
+          <li class="highList__favoriteItem">
+            <a class="highList__favoriteLink" href="#">
+              <svg class="highList__icon" width="20px" height="20px">
+                <use href="../img/symbol-defs.svg#icon-scales"></use></svg
+              >Порівняти</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/Test/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
+    <nav class="navigation">
+      <a class="navigation__logo" href="./index.html">
+        <img src="data:image/svg+xml,%3csvg%20width='286.676'%20height='70.289'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M74.85%2066.2q8.33%204.08%2018.67%204.08%2010.4%200%2018.75-4.13.37-.18.72-.37%205.48-2.86%209.46-7.13%202.3-2.47%204.09-5.4%201.32-2.18%202.29-4.5%202.61-6.27%202.61-13.62%200-7.42-2.65-13.72-.96-2.26-2.25-4.38-1.82-2.97-4.15-5.46-3.96-4.22-9.4-7.05-.42-.23-.85-.44Q103.83%200%2093.52%200%2083.27%200%2074.99%204.03q-.49.24-.97.49-5.37%202.8-9.29%206.95-2.38%202.53-4.24%205.56-1.29%202.12-2.24%204.38-2.65%206.3-2.65%2013.72%200%207.35%202.61%2013.62.96%202.32%202.28%204.5%201.83%202.99%204.18%205.49%203.94%204.21%209.35%207.04.41.22.83.42zm128.97-32.88h-19.68v17q-1.63.66-3.32%201.06-2.4.55-4.93.55-5.3%200-9.04-2.41-1.43-.91-2.64-2.18-.82-.87-1.49-1.85-2.86-4.2-2.86-10.36%200-6.53%203.12-10.75.58-.8%201.28-1.51%201-1.03%202.17-1.82%203.94-2.7%209.74-2.7%203.06%200%205.82.9%205.13%201.68%209.25%206.48l14.51-12.77q-1.78-2.16-3.86-3.97-4.02-3.49-9.18-5.67Q184.91%200%20175.02%200q-10.74%200-19.31%204.3-.17.09-.33.17-5.56%202.85-9.55%207.15-2.25%202.43-4%205.32-1.04%201.73-1.86%203.56Q137%2027.15%20137%2035.13q0%208.07%203.03%2014.78.8%201.76%201.8%203.43%201.92%203.18%204.43%205.8%203.81%203.99%208.98%206.69.41.22.83.42%208.24%204.03%2018.46%204.03%207.59%200%2015.47-2.2%207.87-2.23%2013.82-6.35V33.32zm26.26%2032.88q8.34%204.08%2018.67%204.08%2010.4%200%2018.76-4.13.36-.18.72-.37%205.48-2.86%209.45-7.13%202.3-2.47%204.09-5.4%201.33-2.18%202.29-4.5%202.61-6.27%202.61-13.62%200-7.42-2.65-13.72-.95-2.26-2.25-4.38-1.82-2.97-4.15-5.46-3.96-4.22-9.39-7.05-.43-.23-.86-.44Q259.06%200%20248.75%200q-10.25%200-18.53%204.03-.49.24-.97.49-5.36%202.8-9.29%206.95-2.38%202.53-4.23%205.56-1.3%202.12-2.25%204.38-2.65%206.3-2.65%2013.72%200%207.35%202.61%2013.62.96%202.32%202.29%204.5%201.82%202.99%204.17%205.49%203.94%204.21%209.35%207.04.41.22.83.42zM22.66%201.54H0v67.2h52.99V51.16H22.66V1.54zm76.38%2049.37q-2.56%201.02-5.52%201.02-3.06%200-5.68-1.07-1.01-.41-1.96-.99-.78-.47-1.48-1.03-2.38-1.9-3.94-4.83-2.01-3.8-2.01-8.88%200-5.09%202.01-8.86%201.56-2.93%203.94-4.83.7-.56%201.48-1.03.95-.58%201.96-.99%202.62-1.07%205.68-1.07%202.96%200%205.52%201.01%201.08.44%202.09%201.05.85.51%201.61%201.13%202.32%201.87%203.83%204.73%202.02%203.77%202.02%208.86%200%205.08-2.02%208.88-1.51%202.86-3.83%204.73-.76.62-1.61%201.13-1.01.61-2.09%201.04zm155.23%200q-2.56%201.02-5.52%201.02-3.06%200-5.68-1.07-1.01-.41-1.96-.99-.78-.47-1.48-1.03-2.38-1.9-3.94-4.83-2.01-3.8-2.01-8.88%200-5.09%202.01-8.86%201.56-2.93%203.94-4.83.7-.56%201.48-1.03.95-.58%201.96-.99%202.62-1.07%205.68-1.07%202.96%200%205.52%201.01%201.09.44%202.1%201.05.84.51%201.61%201.13%202.31%201.87%203.82%204.73%202.02%203.77%202.02%208.86%200%205.08-2.02%208.88-1.51%202.86-3.82%204.73-.77.62-1.61%201.13-1.01.61-2.1%201.04z'%20fill='%23FF7D01'%20fill-rule='evenodd'/%3e%3c/svg%3e" alt="logo" />
       </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+      <a class="navigation__logoMob" href="./index.html">
+        <img src="data:image/svg+xml,%3csvg%20width='145'%20height='36'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M.736%2035V1.4h11.328v24.816h15.168V35H.736zm46.772.768c-2.72%200-5.248-.432-7.584-1.296-2.304-.864-4.304-2.08-6-3.648a17.443%2017.443%200%200%201-3.984-5.616c-.928-2.144-1.392-4.48-1.392-7.008%200-2.56.464-4.896%201.392-7.008.96-2.144%202.288-4%203.984-5.568%201.696-1.6%203.696-2.832%206-3.696C42.26%201.064%2044.788.632%2047.508.632c2.752%200%205.28.432%207.584%201.296%202.304.864%204.304%202.096%206%203.696a16.33%2016.33%200%200%201%203.936%205.568c.96%202.112%201.44%204.448%201.44%207.008%200%202.528-.48%204.864-1.44%207.008a16.834%2016.834%200%200%201-3.936%205.616c-1.696%201.568-3.696%202.784-6%203.648-2.304.864-4.832%201.296-7.584%201.296zm0-9.168c1.056%200%202.032-.192%202.928-.576a6.948%206.948%200%200%200%202.4-1.632c.704-.736%201.248-1.616%201.632-2.64.384-1.056.576-2.24.576-3.552%200-1.312-.192-2.48-.576-3.504-.384-1.056-.928-1.936-1.632-2.64a6.655%206.655%200%200%200-2.4-1.68c-.896-.384-1.872-.576-2.928-.576a7.706%207.706%200%200%200-2.976.576%207.253%207.253%200%200%200-2.4%201.68c-.672.704-1.2%201.584-1.584%202.64-.384%201.024-.576%202.192-.576%203.504%200%201.312.192%202.496.576%203.552.384%201.024.912%201.904%201.584%202.64a7.606%207.606%200%200%200%202.4%201.632c.928.384%201.92.576%202.976.576zm40.496%209.168c-2.72%200-5.232-.416-7.536-1.248-2.272-.864-4.256-2.08-5.952-3.648a16.648%2016.648%200%200%201-3.888-5.568c-.928-2.144-1.392-4.512-1.392-7.104%200-2.592.464-4.96%201.392-7.104.928-2.144%202.24-4%203.936-5.568%201.696-1.568%203.696-2.768%206-3.6C82.9%201.064%2085.46.632%2088.244.632c3.328%200%206.288.56%208.88%201.68%202.624%201.12%204.784%202.72%206.48%204.8l-7.248%206.384C95.3%2012.28%2094.148%2011.368%2092.9%2010.76c-1.216-.64-2.576-.96-4.08-.96-1.248%200-2.384.192-3.408.576a6.932%206.932%200%200%200-2.544%201.68c-.704.736-1.248%201.616-1.632%202.64-.384%201.024-.576%202.192-.576%203.504%200%201.248.192%202.4.576%203.456.384%201.024.928%201.904%201.632%202.64a7.59%207.59%200%200%200%202.496%201.728c.992.384%202.096.576%203.312.576%201.28%200%202.528-.208%203.744-.624%201.216-.448%202.512-1.2%203.888-2.256l6.336%207.776c-2.048%201.376-4.384%202.432-7.008%203.168-2.624.736-5.168%201.104-7.632%201.104zm4.8-5.712V17.288h9.84v14.208l-9.84-1.44zm32.282%205.712c-2.72%200-5.248-.432-7.584-1.296-2.304-.864-4.304-2.08-6-3.648a17.443%2017.443%200%200%201-3.984-5.616c-.928-2.144-1.392-4.48-1.392-7.008%200-2.56.464-4.896%201.392-7.008.96-2.144%202.288-4%203.984-5.568%201.696-1.6%203.696-2.832%206-3.696%202.336-.864%204.864-1.296%207.584-1.296%202.752%200%205.28.432%207.584%201.296%202.304.864%204.304%202.096%206%203.696a16.33%2016.33%200%200%201%203.936%205.568c.96%202.112%201.44%204.448%201.44%207.008%200%202.528-.48%204.864-1.44%207.008a16.834%2016.834%200%200%201-3.936%205.616c-1.696%201.568-3.696%202.784-6%203.648-2.304.864-4.832%201.296-7.584%201.296zm0-9.168c1.056%200%202.032-.192%202.928-.576a6.948%206.948%200%200%200%202.4-1.632c.704-.736%201.248-1.616%201.632-2.64.384-1.056.576-2.24.576-3.552%200-1.312-.192-2.48-.576-3.504-.384-1.056-.928-1.936-1.632-2.64a6.655%206.655%200%200%200-2.4-1.68c-.896-.384-1.872-.576-2.928-.576a7.706%207.706%200%200%200-2.976.576%207.253%207.253%200%200%200-2.4%201.68c-.672.704-1.2%201.584-1.584%202.64-.384%201.024-.576%202.192-.576%203.504%200%201.312.192%202.496.576%203.552.384%201.024.912%201.904%201.584%202.64a7.606%207.606%200%200%200%202.4%201.632c.928.384%201.92.576%202.976.576z'%20fill='%23FF7D01'/%3e%3c/svg%3e" alt="logo" />
+      </a>
+
+      <ul class="navigation__btnList">
+        <li class="navigation__btnItem">
+          <button class="navigation__btn">
+            <svg class="navigation__btnMenu" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-menu"></use>
+            </svg>
+          </button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="navigation__btnItem">
+          <a class="navigation__btn">
+            <svg class="navigation__btnMenu" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="navigation__btnItem">
+          <button class="navigation__btn">
+            <svg class="navigation__btnMenu" width="32px" height="32px">
+              <use
+                class="navigation__btnSvg"
+                href="../img/symbol-defs.svg#icon-user"
+              ></use>
+            </svg>
+          </button>
+        </li>
+        <li class="navigation__btnItem">
+          <button class="navigation__btn">
+            <svg class="navigation__btnMenu" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-cart"></use>
+            </svg>
+          </button>
         </li>
       </ul>
+      <form class="inputWrapper">
+        <input
+          class="inputWrapper__input"
+          type="text"
+          placeholder="Я шукаю..."
+          name="text"
+          id="text"
+        />
+        <button class="inputWrapper__button" type="submit">
+          <svg class="inputWrapper__icon" width="22px" height="22px">
+            <use href="../img/symbol-defs.svg#icon-search"></use>
+          </svg>
+        </button>
+      </form>
+      <div class="contacts">
+        <div class="contacts__telWrapper">
+          <a class="contacts__link" href="tel:0800333133">
+            <svg class="contacts__icon" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </a>
+          <div class="contacts__telWrap">
+            <a class="contacts__tel" href="tel:0800333133">0800 333 133</a>
+            <a class="contacts__text" href="tel:0800333133"
+              >Зателефонуйте нам</a
+            >
+          </div>
+        </div>
+        <div class="contacts__btnWrap">
+          <button class="contacts__btn" type="button">
+            <svg class="contacts__icon" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-user"></use>
+            </svg>
+          </button>
+          <button class="contacts__btn" type="button">
+            <svg class="contacts__icon" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-cart"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </nav>
+  </div>
+
+  <div class="lowList">
+    <div class="container">
+      <ul class="lowList__list">
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Головна</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Котам</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Собакам</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Птахам</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Гризунам</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Рибам</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </header>
 
 
     <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
+      <section class="hero">
   <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/Test/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
+    <div class="hero__img">
+      <div class="hero__textWrapper">
+        <h2 class="hero__bigText">Новинка!</h2>
+        <p class="hero__text">Необхідні товаари для вас та вашого улюбленця.</p>
+        <a class="hero__link" href="#">
+          Дізнатися більше
+          <svg class="hero__icon" width="22px" height="22px">
+            <use href="../img/symbol-defs.svg#icon-arrow-right"></use>
+          </svg>
+        </a>
+      </div>
+      <img class="hero__dots" src="../img/brands/dots.svg" alt="dots" />
     </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
   </div>
 </section>
 
-      <article class="badges">
+      <section class="new">
   <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <h2 class="new__title">Новинки</h2>
+    <ul class="new__list">
+      <li class="new__item">
+        <picture>
+          <source
+            srcset="/Test/assets/new-1-1x-DxCEAVIS.png 1x, /Test/assets/new-1-2x-DZccqDnr.png 2x"
+          />
+          <img
+            class="new__image"
+            src="/Test/assets/new-1-1x-DxCEAVIS.png"
+            alt="Корм Royal Canin"
+          />
+        </picture>
+        <div class="new__artikulWrapper">
+          <p class="new__artikul">Артикул: 48952746</p>
+          <div class="new__ratingWrapper">
+            <ul class="new__ratingList">
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="new__ratingText">(12 відгуків)</p>
+          </div>
+        </div>
+        <div class="new__goodsWrapper">
+          <p class="new__goods">Корм Royal Canin</p>
+          <p class="new__deskription">
+            вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+          </p>
+        </div>
+        <div class="new__buttonWrapper">
+          <button class="new__button">Купити</button>
+          <div class="new__price">
+            <span class="new__priceOld">700 грн</span>
+            <span class="new__priceNew">550 грн</span>
+          </div>
+        </div>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
+      <li class="new__item">
+        <picture>
+          <source
+            srcset="/Test/assets/new-2-1x-Zc33TWzv.png 1x, /Test/assets/new-2-2x-61IxJS4C.png 2x"
+          />
+          <img
+            class="new__image"
+            src="/Test/assets/new-2-1x-Zc33TWzv.png"
+            alt="Корм Royal Canin"
+          />
+        </picture>
+        <div class="new__artikulWrapper">
+          <p class="new__artikul">Артикул: 48952746</p>
+          <div class="new__ratingWrapper">
+            <ul class="new__ratingList">
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="new__ratingText">(12 відгуків)</p>
+          </div>
+        </div>
+        <div class="new__goodsWrapper">
+          <p class="new__goods">Корм Royal Canin</p>
+          <p class="new__deskription">
+            вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+          </p>
+        </div>
+        <div class="new__buttonWrapper">
+          <button class="new__button">Купити</button>
+          <div class="new__price">
+            <span class="new__priceOld">700 грн</span>
+            <span class="new__priceNew">550 грн</span>
+          </div>
+        </div>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="new__item">
+        <picture>
+          <source
+            srcset="/Test/assets/new-3-1x-BByZrKLN.png 1x, /Test/assets/new-3-2x-Ds2Vk2RZ.png 2x"
+          />
+          <img
+            class="new__image"
+            src="/Test/assets/new-3-1x-BByZrKLN.png"
+            alt="Корм Royal Canin"
+          />
+        </picture>
+        <div class="new__artikulWrapper">
+          <p class="new__artikul">Артикул: 48952746</p>
+          <div class="new__ratingWrapper">
+            <ul class="new__ratingList">
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="new__ratingText">(12 відгуків)</p>
+          </div>
+        </div>
+        <div class="new__goodsWrapper">
+          <p class="new__goods">Корм Royal Canin</p>
+          <p class="new__deskription">
+            вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+          </p>
+        </div>
+        <div class="new__buttonWrapper">
+          <button class="new__button">Купити</button>
+          <div class="new__price">
+            <span class="new__priceNew">550 грн</span>
+          </div>
+        </div>
+      </li>
+      <li class="new__item">
+        <picture>
+          <source
+            srcset="/Test/assets/new-4-1x-UrpTumk8.png 1x, ./img/new/new-4-2x.png 2x"
+          />
+          <img
+            class="new__image"
+            src="/Test/assets/new-4-1x-UrpTumk8.png"
+            alt="Корм Royal Canin"
+          />
+        </picture>
+        <div class="new__artikulWrapper">
+          <p class="new__artikul">Артикул: 48952746</p>
+          <div class="new__ratingWrapper">
+            <ul class="new__ratingList">
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="new__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="new__ratingText">(12 відгуків)</p>
+          </div>
+        </div>
+        <div class="new__goodsWrapper">
+          <p class="new__goods">Корм Royal Canin</p>
+          <p class="new__deskription">
+            вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+          </p>
+        </div>
+        <div class="new__buttonWrapper">
+          <button class="new__button" type="button">Купити</button>
+          <div class="new__price">
+            <span class="new__priceNew">550 грн</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <button class="new__moreBtn" type="button">
+      Показати ще
+      <svg class="new__arrow" width="12px" height="12px">
+        <use href="../img/symbol-defs.svg#icon-Arrow"></use>
+      </svg>
+    </button>
+  </div>
+</section>
+
+      <section class="hits">
+  <div class="container">
+    <h2 class="hits__title">Хіти продажу</h2>
+    <ul class="hits__list">
+      <li class="hits__item">
+        <picture>
+          <source
+            srcset="/Test/assets/new-1-1x-DxCEAVIS.png 1x, /Test/assets/new-1-2x-DZccqDnr.png 2x"
+          />
+          <img
+            class="hits__image"
+            src="/Test/assets/new-1-1x-DxCEAVIS.png"
+            alt="Корм Royal Canin"
+          />
+        </picture>
+        <div class="hits__artikulWrapper">
+          <p class="hits__artikul">Артикул: 48952746</p>
+          <div class="hits__ratingWrapper">
+            <ul class="hits__ratingList">
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="hits__ratingText">(12 відгуків)</p>
+          </div>
+        </div>
+        <div class="hits__goodsWrapper">
+          <p class="hits__goods">Корм Royal Canin</p>
+          <p class="hits__deskription">
+            вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+          </p>
+        </div>
+        <div class="hits__buttonWrapper">
+          <button class="hits__button">Купити</button>
+          <div class="hits__price">
+            <span class="hits__priceOld">700 грн</span>
+            <span class="hits__priceNew">550 грн</span>
+          </div>
+        </div>
+        <div class="hits__new">Новинка</div>
+      </li>
+      <li class="hits__item">
+        <picture>
+          <source
+            srcset="/Test/assets/new-2-1x-Zc33TWzv.png 1x, /Test/assets/new-2-2x-61IxJS4C.png 2x"
+          />
+          <img
+            class="hits__image"
+            src="/Test/assets/new-2-1x-Zc33TWzv.png"
+            alt="Корм Royal Canin"
+          />
+        </picture>
+        <div class="hits__artikulWrapper">
+          <p class="hits__artikul">Артикул: 48952746</p>
+          <div class="hits__ratingWrapper">
+            <ul class="hits__ratingList">
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="hits__ratingText">(12 відгуків)</p>
+          </div>
+        </div>
+        <div class="hits__goodsWrapper">
+          <p class="hits__goods">Корм Royal Canin</p>
+          <p class="hits__deskription">
+            вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+          </p>
+        </div>
+        <div class="hits__buttonWrapper">
+          <button class="hits__button">Купити</button>
+          <div class="hits__price">
+            <span class="hits__priceOld">700 грн</span>
+            <span class="hits__priceNew">550 грн</span>
+          </div>
+        </div>
+      </li>
+      <li class="hits__item">
+        <picture>
+          <source
+            srcset="/Test/assets/new-3-1x-BByZrKLN.png 1x, /Test/assets/new-3-2x-Ds2Vk2RZ.png 2x"
+          />
+          <img
+            class="hits__image"
+            src="/Test/assets/new-3-1x-BByZrKLN.png"
+            alt="Корм Royal Canin"
+          />
+        </picture>
+        <div class="hits__artikulWrapper">
+          <p class="hits__artikul">Артикул: 48952746</p>
+          <div class="hits__ratingWrapper">
+            <ul class="hits__ratingList">
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="hits__ratingText">(12 відгуків)</p>
+          </div>
+        </div>
+        <div class="hits__goodsWrapper">
+          <p class="hits__goods">Корм Royal Canin</p>
+          <p class="hits__deskription">
+            вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+          </p>
+        </div>
+        <div class="hits__buttonWrapper">
+          <button class="hits__button">Купити</button>
+          <div class="hits__price">
+            <span class="hits__priceNew">550 грн</span>
+          </div>
+        </div>
+      </li>
+      <li class="hits__item">
+        <picture>
+          <source
+            srcset="/Test/assets/new-4-1x-UrpTumk8.png 1x, ./img/new/new-4-2x.png 2x"
+          />
+          <img
+            class="hits__image"
+            src="/Test/assets/new-4-1x-UrpTumk8.png"
+            alt="Корм Royal Canin"
+          />
+        </picture>
+        <div class="hits__artikulWrapper">
+          <p class="hits__artikul">Артикул: 48952746</p>
+          <div class="hits__ratingWrapper">
+            <ul class="hits__ratingList">
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star-fill"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+              <li>
+                <svg class="hits__icon2" width="12px" height="12px">
+                  <use href="../img/symbol-defs.svg#icon-star"></use>
+                </svg>
+              </li>
+            </ul>
+            <p class="hits__ratingText">(12 відгуків)</p>
+          </div>
+        </div>
+        <div class="hits__goodsWrapper">
+          <p class="hits__goods">Корм Royal Canin</p>
+          <p class="hits__deskription">
+            вологий корм у соусі для кошенят на кожен день (до 12 місяців)
+          </p>
+        </div>
+        <div class="hits__buttonWrapper">
+          <button class="hits__button" type="button">Купити</button>
+          <div class="hits__price">
+            <span class="hits__priceNew">550 грн</span>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <button class="hits__moreBtn" type="button">
+      Показати ще
+      <svg class="hits__arrow" width="12px" height="12px">
+        <use href="../img/symbol-defs.svg#icon-Arrow"></use>
+      </svg>
+    </button>
+  </div>
+</section>
+
+      <section class="app">
+  <div class="container">
+    <div class="app__image">
+      <div class="app__mobWrapper">
+        <picture>
+          <source
+            srcset="/Test/assets/circle-desk1x-DF9askSO.png 1x, /Test/assets/circle-desk2x-u4ScSt6H.png 1x 2x"
+            media="(min-width: 1210px)"
+          />
+          <source
+            srcset="/Test/assets/circle-mob1x-_Vd2rTTw.png 1x, /Test/assets/circle-mob2x-YkajbG7c.png 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            class="app__imageCircle"
+            src="/Test/assets/circle-mob1x-_Vd2rTTw.png"
+            alt="app-circle"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="/Test/assets/iPhone-desk-1x-D_gMCUhF.png 1x, /Test/assets/iPhone-desk-2x-DXz6_uiC.png 1x 2x"
+            media="(min-width: 1210px)"
+          />
+          <source
+            srcset="/Test/assets/iPhone-mob-1x-vzvEnym0.png 1x, /Test/assets/iPhone-mob-2x-C-kALqCZ.png 2x"
+            media="(min-width: 375px)"
+          />
+          <img
+            class="app__imagePhone"
+            src="/Test/assets/iPhone-mob-1x-vzvEnym0.png"
+            alt="app-circle"
+          />
+        </picture>
+      </div>
+      <div class="app__textWrapper">
+        <h2 class="app__title">Завантажити наш мобільній додаток</h2>
+        <p class="app__text">
+          Використовуйте усі можливості сучасних технологій. Сервіс доступний
+          24/7.
+        </p>
+        <div class="app__mobLinkWrapper">
+          <a rel="noopener noreferrer" href="https://www.apple.com/app-store/">
+            <img src="/Test/assets/download-mob-BWo3s-pV.svg" alt="download-mob" />
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://play.google.com/store/games?device=windows"
+          >
+            <img src="/Test/assets/google-mob-CV2reIfi.svg" alt="google-mob" />
+          </a>
+        </div>
+        <div class="app__deskLinkWrapper">
+          <a rel="noopener noreferrer" href="https://www.apple.com/app-store/">
+            <img src="/Test/assets/download-desk-BknrB9wc.svg" alt="download-mob" />
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://play.google.com/store/games?device=windows"
+          >
+            <img src="/Test/assets/google-desk-CEfhIIU8.svg" alt="google-mob" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="categories">
+  <div class="container">
+    <h2 class="categories__title">Популярні категорії</h2>
+    <ul class="categories__list">
+      <li class="categories__item categories__item--kitten">
+        <p class="categories__text">Іграшки для котів</p>
+        <a class="categories__link" href="#">
+          <svg class="categories__icon" width="12px" height="12px">
+            <use href="../img/symbol-defs.svg#icon-arrow-right"></use></svg
+        ></a>
+      </li>
+      <li class="categories__item categories__item--cat">
+        <p class="categories__text">Одяг для котів</p>
+        <a class="categories__link" href="#">
+          <svg class="categories__icon" width="12px" height="12px">
+            <use href="../img/symbol-defs.svg#icon-arrow-right"></use></svg
+        ></a>
+      </li>
+      <li class="categories__item categories__item--parrot">
+        <p class="categories__text">Корм для птахів</p>
+        <a class="categories__link" href="#">
+          <svg class="categories__icon" width="12px" height="12px">
+            <use href="../img/symbol-defs.svg#icon-arrow-right"></use></svg
+        ></a>
+      </li>
+      <li class="categories__item categories__item--fish">
+        <p class="categories__text">Корм для риб</p>
+        <a class="categories__link" href="#">
+          <svg class="categories__icon" width="12px" height="12px">
+            <use href="../img/symbol-defs.svg#icon-arrow-right"></use></svg
+        ></a>
       </li>
     </ul>
   </div>
-</article>
+</section>
+
+      <section class="brands">
+  <div class="container">
+    <h2 class="brands__title">Наші бренди</h2>
+
+    <div class="brands__wrapper">
+      <ul class="brands__list">
+        <li class="brands__item">
+          <img
+            class="brands__img"
+            src="/Test/assets/desk-royal-Cn-QqYJy.svg"
+            alt="brands-img"
+          />
+        </li>
+        <li class="brands__item">
+          <img
+            class="brands__img"
+            src="/Test/assets/desk-purina-ZSZ6XUhk.svg"
+            alt="brands-img"
+          />
+        </li>
+        <li class="brands__item">
+          <img
+            class="brands__img"
+            src="/Test/assets/desk-acana-BkMeRC-y.svg"
+            alt="brands-img"
+          />
+        </li>
+        <li class="brands__item">
+          <img
+            class="brands__img"
+            src="/Test/assets/desk-hills-BRarzRib.svg"
+            alt="brands-img"
+          />
+        </li>
+      </ul>
+      <button type="button" class="brands__btn brands__btn--left">
+        <svg class="brands__icon" width="12px" height="12px">
+          <use href="/Test/assets/symbol-defs-BfZKL0R5.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+      <button type="button" class="brands__btn brands__btn--right">
+        <svg class="brands__icon" width="12px" height="12px">
+          <use href="/Test/assets/symbol-defs-BfZKL0R5.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+
+      <img class="brands__dots" src="data:image/svg+xml,%3csvg%20width='62.000000'%20height='14.000000'%20viewBox='0%200%2062%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cdesc%3e%20Created%20with%20Pixso.%20%3c/desc%3e%3cdefs/%3e%3ccircle%20id='Ellipse%206'%20cx='7.000000'%20cy='7.000000'%20r='7.000000'%20fill='%23FF7D01'%20fill-opacity='1.000000'/%3e%3ccircle%20id='Ellipse%207'%20cx='31.000000'%20cy='7.000000'%20r='6.500000'%20stroke='%23FF7D01'%20stroke-opacity='1.000000'%20stroke-width='1.000000'/%3e%3ccircle%20id='Ellipse%208'%20cx='55.000000'%20cy='7.000000'%20r='6.500000'%20stroke='%23FF7D01'%20stroke-opacity='1.000000'%20stroke-width='1.000000'/%3e%3c/svg%3e" alt="dots" />
+    </div>
+  </div>
+</section>
+
+      <section class="news">
+  <div class="container">
+    <div class="news__firstWrapper">
+      <h2 class="news__title">Підпишись на наші новини</h2>
+      <div class="news__wrapper">
+        <form class="news__form" action="">
+          <input
+            class="news__input"
+            type="text"
+            name="follow"
+            id="follow"
+            placeholder="Ваша пошта"
+          />
+          <button class="news__button" type="submit">Підписатись</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 
     </main>
 
     <footer class="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+    <div class="footer__wrapper">
+      <a href="./index.html">
+        <img class="footer__logoMob" src="/Test/assets/EUROZOO-BogG6Zz3.svg" alt=""
+      /></a>
+      <a href="./index.html">
+        <img class="footer__logoDesk" src="data:image/svg+xml,%3csvg%20width='145'%20height='36'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M.736%2035V1.4h11.328v24.816h15.168V35H.736zm46.772.768c-2.72%200-5.248-.432-7.584-1.296-2.304-.864-4.304-2.08-6-3.648a17.443%2017.443%200%200%201-3.984-5.616c-.928-2.144-1.392-4.48-1.392-7.008%200-2.56.464-4.896%201.392-7.008.96-2.144%202.288-4%203.984-5.568%201.696-1.6%203.696-2.832%206-3.696C42.26%201.064%2044.788.632%2047.508.632c2.752%200%205.28.432%207.584%201.296%202.304.864%204.304%202.096%206%203.696a16.33%2016.33%200%200%201%203.936%205.568c.96%202.112%201.44%204.448%201.44%207.008%200%202.528-.48%204.864-1.44%207.008a16.834%2016.834%200%200%201-3.936%205.616c-1.696%201.568-3.696%202.784-6%203.648-2.304.864-4.832%201.296-7.584%201.296zm0-9.168c1.056%200%202.032-.192%202.928-.576a6.948%206.948%200%200%200%202.4-1.632c.704-.736%201.248-1.616%201.632-2.64.384-1.056.576-2.24.576-3.552%200-1.312-.192-2.48-.576-3.504-.384-1.056-.928-1.936-1.632-2.64a6.655%206.655%200%200%200-2.4-1.68c-.896-.384-1.872-.576-2.928-.576a7.706%207.706%200%200%200-2.976.576%207.253%207.253%200%200%200-2.4%201.68c-.672.704-1.2%201.584-1.584%202.64-.384%201.024-.576%202.192-.576%203.504%200%201.312.192%202.496.576%203.552.384%201.024.912%201.904%201.584%202.64a7.606%207.606%200%200%200%202.4%201.632c.928.384%201.92.576%202.976.576zm40.496%209.168c-2.72%200-5.232-.416-7.536-1.248-2.272-.864-4.256-2.08-5.952-3.648a16.648%2016.648%200%200%201-3.888-5.568c-.928-2.144-1.392-4.512-1.392-7.104%200-2.592.464-4.96%201.392-7.104.928-2.144%202.24-4%203.936-5.568%201.696-1.568%203.696-2.768%206-3.6C82.9%201.064%2085.46.632%2088.244.632c3.328%200%206.288.56%208.88%201.68%202.624%201.12%204.784%202.72%206.48%204.8l-7.248%206.384C95.3%2012.28%2094.148%2011.368%2092.9%2010.76c-1.216-.64-2.576-.96-4.08-.96-1.248%200-2.384.192-3.408.576a6.932%206.932%200%200%200-2.544%201.68c-.704.736-1.248%201.616-1.632%202.64-.384%201.024-.576%202.192-.576%203.504%200%201.248.192%202.4.576%203.456.384%201.024.928%201.904%201.632%202.64a7.59%207.59%200%200%200%202.496%201.728c.992.384%202.096.576%203.312.576%201.28%200%202.528-.208%203.744-.624%201.216-.448%202.512-1.2%203.888-2.256l6.336%207.776c-2.048%201.376-4.384%202.432-7.008%203.168-2.624.736-5.168%201.104-7.632%201.104zm4.8-5.712V17.288h9.84v14.208l-9.84-1.44zm32.282%205.712c-2.72%200-5.248-.432-7.584-1.296-2.304-.864-4.304-2.08-6-3.648a17.443%2017.443%200%200%201-3.984-5.616c-.928-2.144-1.392-4.48-1.392-7.008%200-2.56.464-4.896%201.392-7.008.96-2.144%202.288-4%203.984-5.568%201.696-1.6%203.696-2.832%206-3.696%202.336-.864%204.864-1.296%207.584-1.296%202.752%200%205.28.432%207.584%201.296%202.304.864%204.304%202.096%206%203.696a16.33%2016.33%200%200%201%203.936%205.568c.96%202.112%201.44%204.448%201.44%207.008%200%202.528-.48%204.864-1.44%207.008a16.834%2016.834%200%200%201-3.936%205.616c-1.696%201.568-3.696%202.784-6%203.648-2.304.864-4.832%201.296-7.584%201.296zm0-9.168c1.056%200%202.032-.192%202.928-.576a6.948%206.948%200%200%200%202.4-1.632c.704-.736%201.248-1.616%201.632-2.64.384-1.056.576-2.24.576-3.552%200-1.312-.192-2.48-.576-3.504-.384-1.056-.928-1.936-1.632-2.64a6.655%206.655%200%200%200-2.4-1.68c-.896-.384-1.872-.576-2.928-.576a7.706%207.706%200%200%200-2.976.576%207.253%207.253%200%200%200-2.4%201.68c-.672.704-1.2%201.584-1.584%202.64-.384%201.024-.576%202.192-.576%203.504%200%201.312.192%202.496.576%203.552.384%201.024.912%201.904%201.584%202.64a7.606%207.606%200%200%200%202.4%201.632c.928.384%201.92.576%202.976.576z'%20fill='%23FF7D01'/%3e%3c/svg%3e" alt=""
+      /></a>
+      <ul class="footer__listCard">
+        <li class="footer__itemCard">
+          <img
+            class="footer__imgCard"
+            src="/Test/assets/mastercard-CxZSXaVm.svg"
+            alt="visa"
+          />
+        </li>
+        <li class="footer__itemCard">
+          <img class="footer__imgCard" src="/Test/assets/visa-uuw2IIrm.svg" alt="visa" />
+        </li>
+      </ul>
+      <ul class="footer__mediaList">
+        <li class="footer__mediaItem">
+          <a class="footer__mediaLink" href="https://www.linkedin.com/">
+            <svg class="footer__mediaIcon" width="16px" height="16px">
+              <use href="../img/symbol-defs.svg#icon-linkedin"></use></svg
+          ></a>
+        </li>
+        <li class="footer__mediaItem">
+          <a class="footer__mediaLink" href="https://www.linkedin.com/">
+            <svg class="footer__mediaIcon" width="24px" height="24px">
+              <use href="../img/symbol-defs.svg#icon-facebook"></use></svg
+          ></a>
+        </li>
+        <li class="footer__mediaItem">
+          <a class="footer__mediaLink" href="https://www.linkedin.com/">
+            <svg class="footer__mediaIcon" width="24px" height="24px">
+              <use href="../img/symbol-defs.svg#icon-instagram"></use></svg
+          ></a>
+        </li>
+        <li class="footer__mediaItem">
+          <a class="footer__mediaLink" href="https://www.linkedin.com/">
+            <svg class="footer__mediaIcon" width="16px" height="16px">
+              <use href="../img/symbol-defs.svg#icon-twitter"></use></svg
+          ></a>
+        </li>
+        <li class="footer__mediaItem">
+          <a class="footer__mediaLink" href="https://www.linkedin.com/">
+            <svg class="footer__mediaIcon" width="16px" height="16px">
+              <use href="../img/symbol-defs.svg#icon-youtube"></use></svg
+          ></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer__line"></div>
+    <div class="footer__listWrapper">
+      <div class="footer__listWrap">
+        <h2 class="footer__title">Категорії</h2>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Котам </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Собакам </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Птахам </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Гризунам </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Рибам </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__listWrap">
+        <h2 class="footer__title">Клієнтам</h2>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Доставка </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Повернення і обмін</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Програма лояльності</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Наші магазини </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Про компанію </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__listWrap">
+        <h2 class="footer__title">Корисне</h2>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">Договір оферти</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Мапа сайту </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Відгуки </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Контакти </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Бренди</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__listWrap">
+        <h2 class="footer__title">Контакти</h2>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a
+              class="footer__link footer__link--extrabold"
+              href="tel:0800333133"
+              >0800 333 133</a
+            >
+          </li>
+          <li class="footer__item">Безкоштовно по Україні</li>
+          <li class="footer__item">Графік роботи call-центру:</li>
+          <li class="footer__item footer__link--bold">Пн.-Пт. 09.00-20.00</li>
+          <li class="footer__item">
+            <a
+              class="footer__link footer__link--bold"
+              href="mailto:info@eurozoo.com"
+              >info@eurozoo.com</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__line"></div>
+    <div>
+      <p class="footer__copyRights">
+        © 2024 Інтернет-магазин зоотоварів EuroZoo. Всі права захищені
+      </p>
+      <a class="footer__policy" href="#">Політика конфіденційності</a>
+    </div>
   </div>
 </footer>
 
