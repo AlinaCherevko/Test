@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import './common/vars.scss';
+@import './common/mixins.scss';
+@import './common/reset.scss';
+@import './common/container.scss';
+
+// Sections style
+@import './header.scss';
+@import './hero.scss';
+@import './newGoods.scss';
+@import './hits.scss';
+@import './app.scss';
+@import './categories.scss';
+@import './brands.scss';
+@import './followNews.scss';
+@import './footer.scss';
+
+:root {
+  font-family: $_main_font_family;
+  font-optical-sizing: auto;
+  font-size: $_main_font_size;
+  line-height: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  color: $_main_text_color;
+  background-color: $_main_bg_color;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.hidden {
+  overflow: hidden;
+}
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}

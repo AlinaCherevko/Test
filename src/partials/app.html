@@ -1,0 +1,77 @@
+<section class="app">
+  <div class="container">
+    <div class="app__image">
+      <div class="app__mobWrapper">
+        <picture>
+          <source
+            srcset="./img/app/circle-desk1x.png 1x,
+            ./img/app/circle-desk2x.png 1x 2x
+            "
+            media="(min-width: 1210px)"
+          />
+          <source
+            srcset="
+              ./img/app/circle-mob1x.png 1x,
+              ./img/app/circle-mob2x.png 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            class="app__imageCircle"
+            src="./img/app/circle-mob1x.png"
+            alt="app-circle"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="./img/app/iPhone-desk-1x.png 1x,
+            ./img/app/iPhone-desk-2x.png 1x 2x
+            "
+            media="(min-width: 1210px)"
+          />
+          <source
+            srcset="
+              ./img/app/iPhone-mob-1x.png 1x,
+              ./img/app/iPhone-mob-2x.png 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            class="app__imagePhone"
+            src="./img/app/iPhone-mob-1x.png"
+            alt="app-circle"
+          />
+        </picture>
+      </div>
+      <div class="app__textWrapper">
+        <h2 class="app__title">Завантажити наш мобільній додаток</h2>
+        <p class="app__text">
+          Використовуйте усі можливості сучасних технологій. Сервіс доступний
+          24/7.
+        </p>
+        <div class="app__mobLinkWrapper">
+          <a rel="noopener noreferrer" href="https://www.apple.com/app-store/">
+            <img src="./img/app/download-mob.svg" alt="download-mob" />
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://play.google.com/store/games?device=windows"
+          >
+            <img src="./img/app/google-mob.svg" alt="google-mob" />
+          </a>
+        </div>
+        <div class="app__deskLinkWrapper">
+          <a rel="noopener noreferrer" href="https://www.apple.com/app-store/">
+            <img src="./img/app/download-desk.svg" alt="download-mob" />
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="https://play.google.com/store/games?device=windows"
+          >
+            <img src="./img/app/google-desk.svg" alt="google-mob" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,19 +1,155 @@
 <header class="header">
+  <div class="highList">
+    <div class="container">
+      <div class="highList__wrapper">
+        <ul class="highList__list">
+          <li>
+            <a class="highList__link" href="./page-2.html"
+              >Доставка та оплата</a
+            >
+          </li>
+          <li>
+            <a class="highList__link" href="./page-3.html"
+              >Програма лояльності</a
+            >
+          </li>
+          <li>
+            <a class="highList__link" href="./page-3.html">Про нас</a>
+          </li>
+          <li>
+            <a class="highList__link" href="./page-3.html">Контакти</a>
+          </li>
+          <li>
+            <a class="highList__link" href="./page-3.html">Магазини</a>
+          </li>
+        </ul>
+        <ul class="highList__favoriteList">
+          <li class="highList__favoriteItem">
+            <a class="highList__favoriteLink" href="#">
+              <svg class="highList__icon" width="20px" height="20px">
+                <use href="../img/symbol-defs.svg#icon-heart"></use></svg
+              >Улюблені товари</a
+            >
+          </li>
+          <li class="highList__favoriteItem">
+            <a class="highList__favoriteLink" href="#">
+              <svg class="highList__icon" width="20px" height="20px">
+                <use href="../img/symbol-defs.svg#icon-scales"></use></svg
+              >Порівняти</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
   <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
+    <nav class="navigation">
+      <a class="navigation__logo" href="./index.html">
+        <img src="./img/logo/LOGO-mob.svg" alt="logo" />
       </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+      <a class="navigation__logoMob" href="./index.html">
+        <img src="./img/logo/LOGO.svg" alt="logo" />
+      </a>
+
+      <ul class="navigation__btnList">
+        <li class="navigation__btnItem">
+          <button class="navigation__btn">
+            <svg class="navigation__btnMenu" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-menu"></use>
+            </svg>
+          </button>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="navigation__btnItem">
+          <a class="navigation__btn">
+            <svg class="navigation__btnMenu" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="navigation__btnItem">
+          <button class="navigation__btn">
+            <svg class="navigation__btnMenu" width="32px" height="32px">
+              <use
+                class="navigation__btnSvg"
+                href="../img/symbol-defs.svg#icon-user"
+              ></use>
+            </svg>
+          </button>
+        </li>
+        <li class="navigation__btnItem">
+          <button class="navigation__btn">
+            <svg class="navigation__btnMenu" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-cart"></use>
+            </svg>
+          </button>
         </li>
       </ul>
+      <form class="inputWrapper">
+        <input
+          class="inputWrapper__input"
+          type="text"
+          placeholder="Я шукаю..."
+          name="text"
+          id="text"
+        />
+        <button class="inputWrapper__button" type="submit">
+          <svg class="inputWrapper__icon" width="22px" height="22px">
+            <use href="../img/symbol-defs.svg#icon-search"></use>
+          </svg>
+        </button>
+      </form>
+      <div class="contacts">
+        <div class="contacts__telWrapper">
+          <a class="contacts__link" href="tel:0800333133">
+            <svg class="contacts__icon" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </a>
+          <div class="contacts__telWrap">
+            <a class="contacts__tel" href="tel:0800333133">0800 333 133</a>
+            <a class="contacts__text" href="tel:0800333133"
+              >Зателефонуйте нам</a
+            >
+          </div>
+        </div>
+        <div class="contacts__btnWrap">
+          <button class="contacts__btn" type="button">
+            <svg class="contacts__icon" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-user"></use>
+            </svg>
+          </button>
+          <button class="contacts__btn" type="button">
+            <svg class="contacts__icon" width="32px" height="32px">
+              <use href="../img/symbol-defs.svg#icon-cart"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </nav>
+  </div>
+
+  <div class="lowList">
+    <div class="container">
+      <ul class="lowList__list">
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Головна</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Котам</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Собакам</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Птахам</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Гризунам</a>
+        </li>
+        <li class="lowList__item">
+          <a class="lowList__link" href="#">Рибам</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </header>

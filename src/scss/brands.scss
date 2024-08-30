@@ -1,0 +1,106 @@
+.brands {
+  padding-top: 60px;
+  padding-bottom: 108px;
+
+  @include media(desktop) {
+    padding-top: 70px;
+  }
+
+  &__title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+    @include media(desktop) {
+      font-size: 52px;
+      margin-bottom: 38px;
+    }
+  }
+  &__wrapper {
+    position: relative;
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 9px;
+    row-gap: 10px;
+
+    @include media(desktop) {
+      justify-content: center;
+      gap: 20px;
+    }
+  }
+
+  &__item {
+    @include center;
+    width: calc((100% - 9px) / 2);
+    height: 120px;
+    background-color: $_second_bg_color;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.06);
+
+    &:hover .brands__img {
+      filter: grayscale(0%);
+    }
+    @include media(desktop) {
+      width: calc((100% - 60px) / 4);
+      height: 200px;
+    }
+  }
+  &__img {
+    width: 131px;
+    height: 50px;
+    filter: grayscale(100%);
+    transition: filter $transition $transition-cubic-bezier;
+
+    @include media(desktop) {
+      width: 221px;
+      height: 84px;
+    }
+  }
+
+  &__btn {
+    background-color: transparent;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1px solid $_accent_color;
+
+    &--right {
+      position: absolute;
+      top: 262px;
+      right: 0;
+
+      @include media(desktop) {
+        top: 82px;
+        right: -20px;
+      }
+    }
+    &--left {
+      position: absolute;
+      left: 0;
+      top: 262px;
+
+      @include media(desktop) {
+        top: 82px;
+        left: -20px;
+      }
+    }
+  }
+
+  &__icon {
+    fill: $_accent_color;
+  }
+
+  &__dots {
+    position: absolute;
+    top: 273px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+
+    @include media(desktop) {
+      top: 224px;
+    }
+  }
+}

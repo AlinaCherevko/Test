@@ -1,0 +1,91 @@
+.hero {
+  padding-top: 20px;
+  text-align: center;
+
+  @include media(desktop) {
+    padding-top: 12px;
+    text-align: start;
+  }
+
+  &__img {
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/hero/mob1x.jpeg);
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../img/hero/mob2x.jpeg);
+    }
+    @include media(desktop) {
+      background-image: url(../img/hero/desk1x.jpeg);
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/hero/desk2x.jpeg);
+      }
+    }
+  }
+  &__textWrapper {
+    padding: 42px 42px 427px 42px;
+
+    @include media(desktop) {
+      padding: 71px 740px 71px 62px;
+    }
+  }
+  &__bigText {
+    font-size: 43px;
+    font-weight: 800;
+    color: $_second_bg_color;
+    margin-bottom: 23px;
+
+    @include media(desktop) {
+      font-size: 52px;
+      margin-bottom: 38px;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: 500;
+    color: $_second_bg_color;
+    margin-bottom: 20px;
+
+    @include media(desktop) {
+      margin-bottom: 28px;
+    }
+  }
+  &__link {
+    width: 218px;
+    @include center;
+    background-color: $_accent_color;
+    padding: 20px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    color: $_second_bg_color;
+    gap: 12px;
+    white-space: nowrap;
+    margin: 0 auto;
+
+    @include media(desktop) {
+      margin: 0;
+    }
+  }
+
+  &__icon {
+    fill: $_second_bg_color;
+  }
+
+  &__dots {
+    cursor: pointer;
+    position: absolute;
+    top: 627px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @include media(desktop) {
+      top: 336px;
+    }
+  }
+}

@@ -1,0 +1,160 @@
+.categories {
+  padding-top: 60px;
+  padding-bottom: 89px;
+  background-color: $_second_bg_color;
+
+  @include media(desktop) {
+    padding: 70px 0;
+  }
+
+  &__title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    @include media(desktop) {
+      margin-bottom: 30px;
+      font-size: 52px;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    @include media(desktop) {
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+
+  &__item {
+    position: relative;
+    border-radius: 22px;
+    width: 100%;
+    height: 168px;
+
+    @include media(mobile) {
+      width: 345px;
+    }
+    @include media(desktop) {
+      width: 280px;
+      height: 280px;
+    }
+
+    &--kitten {
+      background-color: $_green_color;
+      background-image: url(../img/categories/mob-kitten1x.png);
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/categories/mob-kitten2x.png);
+      }
+      @include media(desktop) {
+        background-image: url(../img/categories/desk-kitten1x.png);
+
+        @media (min-device-pixel-ratio: 2),
+          (min-resolution: 192dpi),
+          (min-resolution: 2dppx) {
+          background-image: url(../img/categories/desk-kitten2x.png);
+        }
+      }
+    }
+
+    &--cat {
+      background-color: $_purple_color;
+      background-image: url(../img/categories/mob-cat1x.png);
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/categories/mob-cat2x.png);
+      }
+      @include media(desktop) {
+        background-image: url(../img/categories/desk-cat1x.png);
+
+        @media (min-device-pixel-ratio: 2),
+          (min-resolution: 192dpi),
+          (min-resolution: 2dppx) {
+          background-image: url(../img/categories/desk-cat2x.png);
+        }
+      }
+    }
+    &--parrot {
+      background-color: $_blue_color;
+      background-image: url(../img/categories/mob-parrot1x.png);
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/categories/mob-parrot2x.png);
+      }
+      @include media(desktop) {
+        background-image: url(../img/categories/desk-parrot1x.png);
+
+        @media (min-device-pixel-ratio: 2),
+          (min-resolution: 192dpi),
+          (min-resolution: 2dppx) {
+          background-image: url(../img/categories/desk-parrot2x.png);
+        }
+      }
+    }
+    &--fish {
+      background-color: $_accent_color;
+      background-image: url(../img/categories/mob-fish1x.png);
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/categories/mob-fish2x.png);
+      }
+      @include media(desktop) {
+        background-image: url(../img/categories/desk-fish1x.png);
+
+        @media (min-device-pixel-ratio: 2),
+          (min-resolution: 192dpi),
+          (min-resolution: 2dppx) {
+          background-image: url(../img/categories/desk-fish2x.png);
+        }
+      }
+    }
+  }
+
+  &__text {
+    width: 120px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: $_second_bg_color;
+    font-size: 22px;
+    font-weight: 800;
+
+    @include media(desktop) {
+      width: 173px;
+      font-size: 32px;
+      top: 32px;
+      left: 32px;
+    }
+  }
+  &__link {
+    position: absolute;
+    top: 106px;
+    left: 20px;
+    @include center;
+    cursor: pointer;
+    background-color: transparent;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid $_second_bg_color;
+
+    @include media(desktop) {
+      top: 198px;
+      left: 32px;
+      width: 59px;
+      height: 59px;
+    }
+  }
+
+  &__icon {
+    fill: $_second_bg_color;
+  }
+}
