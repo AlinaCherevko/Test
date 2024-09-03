@@ -7,27 +7,14 @@
     text-align: start;
   }
 
-  &__img {
-    position: relative;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-image: url(../img/hero/mob1x.jpeg);
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: url(../img/hero/mob2x.jpeg);
-    }
-    @include media(desktop) {
-      background-image: url(../img/hero/desk1x.jpeg);
-      @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-        background-image: url(../img/hero/desk2x.jpeg);
-      }
-    }
-  }
   &__textWrapper {
-    padding: 42px 42px 427px 42px;
+    top: 0;
+    position: absolute;
+    padding: 20px 10px;
+
+    @include media(mobile) {
+      padding: 42px 42px 427px 42px;
+    }
 
     @include media(desktop) {
       padding: 71px 740px 71px 62px;
@@ -76,16 +63,29 @@
   &__icon {
     fill: $_second_bg_color;
   }
+}
 
-  &__dots {
-    cursor: pointer;
-    position: absolute;
-    top: 627px;
-    left: 50%;
-    transform: translateX(-50%);
+.swiper {
+  position: relative;
+}
 
-    @include media(desktop) {
-      top: 336px;
-    }
-  }
+.swiper-pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  display: flex;
+  gap: 10px;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border: 1px solid $_accent_color;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $_accent_color;
 }

@@ -6,6 +6,12 @@
     padding-top: 70px;
   }
 
+  &__swiper {
+    position: relative;
+    overflow: hidden;
+    //padding-bottom: 40px;
+  }
+
   &__title {
     font-size: 42px;
     font-weight: 700;
@@ -16,6 +22,10 @@
       margin-bottom: 38px;
     }
   }
+  &__relative {
+    position: relative;
+  }
+
   &__wrapper {
     position: relative;
   }
@@ -27,6 +37,7 @@
     row-gap: 10px;
 
     @include media(desktop) {
+      flex-wrap: nowrap;
       justify-content: center;
       gap: 20px;
     }
@@ -64,26 +75,29 @@
     width: 37px;
     height: 37px;
     border-radius: 50%;
+    z-index: 10;
     border: 1px solid $_accent_color;
 
     &--right {
       position: absolute;
-      top: 262px;
-      right: 0;
+      // top: 262px;
+      bottom: -50px;
+      right: 15px;
 
       @include media(desktop) {
-        top: 82px;
-        right: -20px;
+        top: 180px;
+        right: 0px;
       }
     }
     &--left {
       position: absolute;
-      left: 0;
-      top: 262px;
+      left: 15px;
+      // top: 262px;
+      bottom: -50px;
 
       @include media(desktop) {
-        top: 82px;
-        left: -20px;
+        top: 180px;
+        left: 0px;
       }
     }
   }
@@ -91,16 +105,26 @@
   &__icon {
     fill: $_accent_color;
   }
+}
+.swiper {
+  position: relative;
+}
+.swiper-pagination2 {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  display: flex;
+  gap: 10px;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+.swiper-pagination2-bullet {
+  width: 12px;
+  height: 12px;
+  border: 1px solid $_accent_color;
+  border-radius: 50%;
+}
 
-  &__dots {
-    position: absolute;
-    top: 273px;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-
-    @include media(desktop) {
-      top: 224px;
-    }
-  }
+.swiper-pagination2-bullet-active {
+  background-color: $_accent_color;
 }

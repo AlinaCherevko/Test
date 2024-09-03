@@ -1,17 +1,99 @@
 <section class="hero">
   <div class="container">
-    <div class="hero__img">
-      <div class="hero__textWrapper">
-        <h2 class="hero__bigText">Новинка!</h2>
-        <p class="hero__text">Необхідні товаари для вас та вашого улюбленця.</p>
-        <a class="hero__link" href="#">
-          Дізнатися більше
-          <svg class="hero__icon" width="22px" height="22px">
-            <use href="./img/symbol-defs.svg#icon-arrow-right"></use>
-          </svg>
-        </a>
+    <div class="hero__swiper">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./img/hero/desk1x.jpeg 1x, ./img/hero/desk2x.jpeg 2x"
+                media="(min-width: 1210px)"
+              />
+              <source
+                srcset="./img/hero/mob1x.jpeg 1x, ./img/hero/mob2x.jpeg 2x"
+                media="(min-width: 375px)"
+              />
+              <img
+                src="./img/hero/mob1x.jpeg"
+                alt="first-slider"
+                class="slider-img"
+              />
+            </picture>
+            <div class="hero__textWrapper">
+              <h2 class="hero__bigText">Новинка!</h2>
+              <p class="hero__text">
+                Необхідні товаари для вас та вашого улюбленця.
+              </p>
+              <a class="hero__link" href="#">
+                Дізнатися більше
+                <svg class="hero__icon" width="22px" height="22px">
+                  <use href="./img/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./img/hero/desk1x.jpeg 1x, ./img/hero/desk2x.jpeg 2x"
+                media="(min-width: 1210px)"
+              />
+              <source
+                srcset="./img/hero/mob1x.jpeg 1x, ./img/hero/mob2x.jpeg 2x"
+                media="(min-width: 375px)"
+              />
+              <img
+                src="./img/hero/mob1x.jpeg"
+                alt="second-slider"
+                class="slider-img"
+              />
+            </picture>
+            <div class="hero__textWrapper">
+              <h2 class="hero__bigText">Новинка!</h2>
+              <p class="hero__text">
+                Необхідні товаари для вас та вашого улюбленця.
+              </p>
+              <a class="hero__link" href="#">
+                Дізнатися більше
+                <svg class="hero__icon" width="22px" height="22px">
+                  <use href="./img/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./img/hero/desk1x.jpeg 1x, ./img/hero/desk2x.jpeg 2x"
+                media="(min-width: 1210px)"
+              />
+              <source
+                srcset="./img/hero/mob1x.jpeg 1x, ./img/hero/mob2x.jpeg 2x"
+                media="(min-width: 375px)"
+              />
+              <img
+                src="./img/hero/mob1x.jpeg"
+                alt="first-slider"
+                class="slider-img"
+              />
+            </picture>
+            <div class="hero__textWrapper">
+              <h2 class="hero__bigText">Новинка!</h2>
+              <p class="hero__text">
+                Необхідні товаари для вас та вашого улюбленця.
+              </p>
+              <a class="hero__link" href="#">
+                Дізнатися більше
+                <svg class="hero__icon" width="22px" height="22px">
+                  <use href="./img/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
       </div>
-      <img class="hero__dots" src="./img/brands/dots.svg" alt="dots" />
+      <!-- <div class="swiper-pagination"></div> -->
     </div>
   </div>
 </section>
